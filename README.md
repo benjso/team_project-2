@@ -22,7 +22,7 @@ The salary data is from Kaggle. Due to the large dataset, the portion below 50k 
 The cost of living index data is merged to the salary data on Country name. The cost of living data is from https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2024, using the Cost of Living by Country data for year 2024.
 
 2. Issues to solve:
-Multi-classification issue: Predict the salary bins/buckets at 10000 interval.
+Multi-classification issue: Predict the salary bins/buckets at 10000 intervals.
 Regression issue: Use availalbe predictors to predict the target value Salary.
 
 3. Approach used to solve the issue and reason
