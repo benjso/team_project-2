@@ -1,7 +1,7 @@
 # Team Project Part 2
 
 ## Description
-The team continue to apply newly acquired skills and revisit the team project 1 salary dataset. Team members agreed to add a new datastet - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
+The team continues to apply newly acquired skills and revisit the team project 1 salary dataset, adding a new datastet - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
 
 This project applies skills from the following previous modules:
 
@@ -9,8 +9,6 @@ This project applies skills from the following previous modules:
 * SQL
 * Applying Statistical Concepts (Linear regression, classification, and resampling
 * Scaling to Production
-* Visualization (Data Science Certificate)
-* Sampling (Data Science Certificate)
 * Algorithm & Data Structures (Machine Learning Software Foundations Certificate)
 * Deep Learning (Machine Learning Software Foundations Certificate)
 
