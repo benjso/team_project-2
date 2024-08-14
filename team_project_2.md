@@ -27,26 +27,26 @@ The cost of living index data is merged to the salary data on Country name. The 
 Regression issue: Use availalbe predictors to predict the target value Salary.
 
 3. Approach used to solve the issue and reason
-1) Pipeline approach to solve the multi-classification issue
+(1) Pipeline approach to solve the multi-classification issue
    
-2) Deep learning embeddings model to solve the regression issue.
+(2) Deep learning embeddings model to solve the regression issue.
    Reason to use this approach is that in the dataset, there are too many categorical values. For example, there are 94 values for country and around 3500 values for job titles. Embeddings approach is a good way to solve the issue with many categorical values.
    
-3) Neural Network model to solve the regression issue
+(3) Neural Network model to solve the regression issue
 
 4. The performance of the model:
-1) Pipeline approach:
+(1) Pipeline approach:
 The final Logistic Regression model achieved the following performance on the test set:
 Log loss: 0.7338
 Accuracy: 0.7451
 Balanced accuracy: 0.4944
 ROC AUC: 0.8573
 
-3) Deep learning embeddings model:
+(2) Deep learning embeddings model:
 Mean Absolut Error: 0.42 within 5% of the mean salary 8.4.
 The predicted value is within 5% range (4.2k) of difference in comparison to the average true value (84k).
 
-4) Neural Network model:
+(3) Neural Network model:
 
 
 5. Insights from visualization:
