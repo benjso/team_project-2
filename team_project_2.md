@@ -1,8 +1,65 @@
 # Team Project Part 2
 
 ## Description
+The team continue to apply newly acquired skills and revisit the team project 1 salary dataset. Team members agreed to add a new datastet - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
 
-Working together in your project team, you'll continue to apply your newly acquired skills and revisit your program from Part 1. Data Science Certificate participants will collaborate to creatively visualize their data. Participants working toward the Machine Learning Software Foundations Certificate will work together to deploy a machine learning model. For example, your team might choose to develop a sentiment analysis model for social media comments in order to enable businesses to gauge public opinion effectively.
+This project applies skills from the following previous modules:
+
+* Introduction to Building Software (Shell, Git, Python)
+* SQL
+* Applying Statistical Concepts (Linear regression, classification, and resampling
+* Scaling to Production
+* Visualization (Data Science Certificate)
+* Sampling (Data Science Certificate)
+* Algorithm & Data Structures (Machine Learning Software Foundations Certificate)
+* Deep Learning (Machine Learning Software Foundations Certificate)
+
+Below includes a summary of the dataset, issues to solve, approches/models adopted, performance comparison, insights as well as the list of videos regarding this project from each member. 
+
+1. Summary of the dataset:
+
+The salary data is from Kaggle. Due to the large dataset, the portion below 50k has been removed. There are 94 countries and over 3000 job titles in the dataset. 
+
+The cost of living index data is merged to the salary data on Country name. The cost of living data is from https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2024, using the Cost of Living by Country data for year 2024.
+
+2. Issues to solve:
+
+1) Multi-classification: Divide the salary into 10k buckets and use all predictors (categorical and numeric values) to predict the salary buckets.
+   
+2) Regression issue: Use availalbe predictors to predict the target value Salary.
+
+3. Approach used to solve the issue and reason
+1) Pipeline approach to solve the multi-classification issue
+   
+2) Deep learning embeddings model to solve the regression issue.
+   Reason to use this approach is that in the dataset, there are too many categorical values. For example, there are 94 values for country and around 3500 values for job titles. Embeddings approach is a good way to solve the issue with many categorical values.
+   
+3) Neural Network model to solve the regression issue
+
+4. The performance of the model:
+1) Pipeline approach:
+
+2) Deep learning embeddings model:
+Mean Absolut Error: 0.42 within 5% of the mean salary 8.4.
+The predicted value is within 5% range (4.2k) of difference in comparison to the average true value (84k).
+
+3) Neural Network model:
+
+
+5. Insights from visualization:
+
+From the TSNE graph, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
+
+
+6. Video links:
+
+   
+
+
+
+
+
+Data Science Certificate participants will collaborate to creatively visualize their data. Participants working toward the Machine Learning Software Foundations Certificate will work together to deploy a machine learning model. For example, your team might choose to develop a sentiment analysis model for social media comments in order to enable businesses to gauge public opinion effectively.
 
 At the end of the module, all team members are encouraged to fork the repo onto their profile so that prospective employers can view the project on all of your profiles. 
 
