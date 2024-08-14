@@ -13,7 +13,7 @@ This project applies skills from the following previous modules:
 * Algorithm & Data Structures (Machine Learning Software Foundations Certificate)
 * Deep Learning (Machine Learning Software Foundations Certificate)
 
-Below includes a summary of the dataset, issues to solve, approches/models adopted, performance comparison, insights as well as the list of videos regarding this project from each member. 
+Below includes a summary of the dataset, issues to solve, approaches/models adopted, performance comparison, insights as well as the list of videos regarding this project from each member. 
 
 1. Summary of the dataset:
 
@@ -22,14 +22,14 @@ The salary data is from Kaggle. Due to the large dataset, the portion below 50k 
 The cost of living index data is merged to the salary data on Country name. The cost of living data is from https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2024, using the Cost of Living by Country data for year 2024.
 
 2. Issues to solve:
-Multi-classification issue: Predict the salary bins/buckets at 10000 interval.
+Multi-classification issue: Predict the salary bins/buckets at 10000 intervals.
 Regression issue: Use availalbe predictors to predict the target value Salary.
 
 3. Approach used to solve the issue and reason
    
 (1) Pipeline approach to solve the multi-classification issue
    
-(2) Deep learning embeddings model to solve the regression issue.
+(2) Deep learning embeddings model to solve the regression issue
    
    Reason to use this approach apply the knowledge and skills learned in the ML sessions. Also in the dataset, there are too many categorical values. For example, there are 94 values for country and around 3500 values for job titles. Embeddings approach is a good way to solve the issue with many categorical values.
    
@@ -48,15 +48,15 @@ Balanced accuracy: 0.4944,
 ROC AUC: 0.8573.
 
 (2) Deep learning embeddings model:
-Mean Absolut Error: 0.42 within 5% of the mean salary 8.4.
-The predicted value is within 5% range (4.2k) of difference in comparison to the average true value (84k).
+Mean Absolut Error: 0.42 within 5% of the mean target value of salary 8.4.
+The predicted value is within 5% range (4.2k) in comparison to the average true value (84k).
 
 (3) Neural Network model:
 
 
 5. Insights from visualization:
 
-From the TSNE graph, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
+From the TSNE graph from embeddings approach, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
 
 
 (6. Video links:)
