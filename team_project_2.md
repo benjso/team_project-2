@@ -24,9 +24,7 @@ The cost of living index data is merged to the salary data on Country name. The 
 
 2. Issues to solve:
 
-1) Multi-classification: Divide the salary into 10k buckets and use all predictors (categorical and numeric values) to predict the salary buckets.
-   
-2) Regression issue: Use availalbe predictors to predict the target value Salary.
+Regression issue: Use availalbe predictors to predict the target value Salary.
 
 3. Approach used to solve the issue and reason
 1) Pipeline approach to solve the multi-classification issue
@@ -38,12 +36,17 @@ The cost of living index data is merged to the salary data on Country name. The 
 
 4. The performance of the model:
 1) Pipeline approach:
+The final Logistic Regression model achieved the following performance on the test set:
+Log loss: 0.7338
+Accuracy: 0.7451
+Balanced accuracy: 0.4944
+ROC AUC: 0.8573
 
-2) Deep learning embeddings model:
+3) Deep learning embeddings model:
 Mean Absolut Error: 0.42 within 5% of the mean salary 8.4.
 The predicted value is within 5% range (4.2k) of difference in comparison to the average true value (84k).
 
-3) Neural Network model:
+4) Neural Network model:
 
 
 5. Insights from visualization:
@@ -51,7 +54,7 @@ The predicted value is within 5% range (4.2k) of difference in comparison to the
 From the TSNE graph, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
 
 
-6. Video links:
+(6. Video links:)
 
    
 
