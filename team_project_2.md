@@ -56,8 +56,8 @@ From the TSNE graph, we can see that certain job titles do get compensated bette
    
 
 
-
-
+#### Below paragraphs are the orginal requirements for this team project ####
+---------------------------------------------------------------------------------------------------------------------
 
 Data Science Certificate participants will collaborate to creatively visualize their data. Participants working toward the Machine Learning Software Foundations Certificate will work together to deploy a machine learning model. For example, your team might choose to develop a sentiment analysis model for social media comments in order to enable businesses to gauge public opinion effectively.
 
