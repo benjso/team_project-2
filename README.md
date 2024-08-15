@@ -22,6 +22,7 @@ The salary data is from Kaggle. Due to the large dataset, the portion below 50k 
 The cost of living index data is merged to the salary data on Country name. The cost of living data is from https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2024, using the Cost of Living by Country data for year 2024.
 
 2. Issues to solve:
+   
 Multi-classification issue: Predict the salary bins/buckets at 10000 intervals.
 Regression issue: Use available predictors to predict the target value Salary.
 
@@ -37,7 +38,7 @@ Regression issue: Use available predictors to predict the target value Salary.
    
    Reason to use this approach is to apply the knowledge points and skills we learned most recently in ML sessions. 
  
-4. The performance of the model:
+4. Performance comparison
    
 (1) Pipeline approach:
 
@@ -61,8 +62,6 @@ From the TSNE graph from embedding approach, we can see that certain job titles 
 
 
 (6. Video links:)
-
-   
 
 
 #### Below paragraphs are the orginal requirements for this team project ####
