@@ -2,7 +2,7 @@
 
 ## Description
 
-The team continues to apply newly acquired skills and revisit the team project 1 salary dataset, adding a new datastet - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
+The team continues to apply newly acquired skills and revisit the team project 1 salary dataset, adding a new dataset - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
 
 This project applies skills from the following previous modules:
 
