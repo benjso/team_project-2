@@ -61,6 +61,7 @@ The predicted value is within 5% range (4.2k) in comparison to the average true 
 
 (3) Neural Network model:
 
+Loss: 0.0039 - Mean Absolut Error: 0.0039 - Mean Squared Error : 8.6752e-05, with the prediction variance within 5% range.
 
 5. Insights from visualization:
 
@@ -69,7 +70,13 @@ From the TSNE graph from embedding approach, we can see that certain job titles 
 
 (6. Video links:)
 
-   
+* Benjamin Su - https://drive.google.com/file/d/1mB_5qPZJzdtjhonOlV7kl8dqJLuWDiVw/view?usp=sharing
+
+
+
+# Team Project 2 - Project Repository Activities/Logs
+
+* Benjamin Su - Explored and identified the source data from Kaggle.com, performed data pre-processing and then collaborated with team members to merge other datasets from multiple channels, loaded the data into SQL DB for feeding the training model. Determined and used Neural Network model with implementation of algorithm through Python programming for training the model and testing as well as model tuning-up. Organized the meetings and discussions in the team to catch up with the project timeline, and worked with the team to compare different models and training/test results with relevant analysis.
 
 
 #### Below paragraphs are the orginal requirements for this team project ####
