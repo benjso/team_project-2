@@ -42,11 +42,17 @@ Regression issue: Use available predictors to predict the target value Salary.
    
 (1) Pipeline approach:
 
-The final Logistic Regression model achieved the following performance on the test set:
+The final Logistic Regression model achieved the following performance on the test set tuned by RandomizedSearch:
 Log loss: 0.7338,
 Accuracy: 0.7451,
 Balanced accuracy: 0.4944,
 ROC AUC: 0.8573.
+
+The final Logistic Regression model achieved the following performance on the test set tuned by GridSearch:
+Log loss: 0.9242,
+Accuracy: 0.6659,
+Balanced accuracy: 0.5557,
+ROC AUC: 0.8651.
 
 (2) Deep learning embedding model:
 
