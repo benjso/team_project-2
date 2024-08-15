@@ -1,6 +1,78 @@
+# Team Project Part 2
+
+## Description
+
+The team continues to apply newly acquired skills and revisit the team project 1 salary dataset, adding a new dataset - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
+
+This project applies skills from the following previous modules:
+
+* Introduction to Building Software (Shell, Git, Python)
+* SQL
+* Applying Statistical Concepts (Linear regression, classification, and resampling
+* Scaling to Production
+* Algorithm & Data Structures (Machine Learning Software Foundations Certificate)
+* Deep Learning (Machine Learning Software Foundations Certificate)
+
+Below includes a summary of the dataset, issues to solve, approaches/models adopted, performance comparison, insights as well as the list of videos regarding this project from each member. 
+
+1. Summary of the dataset:
+
+The salary data is from Kaggle. Due to the large dataset, the portion below 50k has been removed. There are 94 countries and over 3000 job titles in the dataset. 
+
+The cost of living index data is merged to the salary data on Country name. The cost of living data is from https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2024, using the Cost of Living by Country data for year 2024.
+
+2. Issues to solve:
+   
+Multi-classification issue: Predict the salary bins/buckets at 10000 intervals.
+Regression issue: Use available predictors to predict the target value Salary.
+
+3. Approach used to solve the issue and reason
+   
+(1) Pipeline approach to solve the multi-classification issue
+   
+(2) Deep learning embedding model to solve the regression issue
+   
+   Reason to use this approach apply the knowledge and skills learned in the ML sessions. Also in the dataset, there are many categorical values. For example, there are 95 values for country and around 3500 values for job titles. Embedding approach is a good way to solve the issue with many categorical values.
+   
+(3) Neural Network model to solve the regression issue
+   
+   Reason to use this approach is to apply the knowledge points and skills we learned most recently in ML sessions. 
+ 
+4. Performance comparison
+   
+(1) Pipeline approach:
+
+The final Logistic Regression model achieved the following performance on the test set:
+Log loss: 0.7338,
+Accuracy: 0.7451,
+Balanced accuracy: 0.4944,
+ROC AUC: 0.8573.
+
+(2) Deep learning embedding model:
+
+Mean Absolut Error: 0.42 within 5% of the mean target value of salary 8.4.
+The predicted value is within 5% range (4.2k) in comparison to the average true value (84k).
+
+(3) Neural Network model:
+
+
+5. Insights from visualization:
+
+From the TSNE graph from embedding approach, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
+
+
+(6. Video links:)
+
+
+#### Below paragraphs are the orginal requirements for this team project ####
+---------------------------------------------------------------------------------------------------------------------
+
+
 # Team Project
 
 ## Description
+
+
 The team project consists of two modules. Each module requires participants to apply the skills they have learned to date, and explore a dataset of their choosing. The first part of the team project involves creating a simple program with a database in order to analyze a dataset from an open source, such as Kaggle. In the second part of the team project, teams will come together again and apply the skills developed in each of the data science or machine learning foundations certificate streams. Teams will either create a data visualization or a machine learning model.
 
 Participants will work in assigned teams of 4-5. 
