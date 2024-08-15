@@ -93,3 +93,10 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
+# Team Project 2 - Project Repository Activities/Logs
+* Benjamin Su - Explored and identified the source data from Kaggle.com, performed data pre-processing and then collaborated with team members to merge other datasets from multiple channels, loaded the data into SQL DB for feeding the training model. Determined and used Neural Network model with implementation of algorithm through Python programming for training the model and testing as well as model tuning-up. Organized the meetings and discussions in the team to catch up with the project timeline, and worked with the team to compare different models and training/test results with relevant analysis.
+
+
+# Team Project 2 - Video Links
+* Benjamin Su - https://drive.google.com/file/d/1mB_5qPZJzdtjhonOlV7kl8dqJLuWDiVw/view?usp=sharing   
+
