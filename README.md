@@ -30,6 +30,8 @@ Regression issue: Use available predictors to predict the target value Salary.
 3. Approach used to solve the issue and reason
    
 (1) Pipeline approach to solve the multi-classification issue
+
+  Reason to use this approach appy the knowledge and skills learned in the scaling to production sections. Utilizing a different models and different hyperparameters can easily be tested against one another and scoring metrics can be accurately compared with cross validation and grid search methods.
    
 (2) Deep learning embedding model to solve the regression issue
    
@@ -75,7 +77,7 @@ From the TSNE graph of embedding approach, we can see that certain job titles do
 * Benjamin Su - https://drive.google.com/file/d/1mB_5qPZJzdtjhonOlV7kl8dqJLuWDiVw/view?usp=sharing
 * Yuanyuan (Caroline) Zhang - https://drive.google.com/file/d/1xX5G11Nhl22CtSwT_tFi0o3HFe0Y1BvM/view?usp=drive_link
 * Sergii Khomych - https://drive.google.com/file/d/1dEOo2AlyYynxMLBJ2NyEb9c9BqQrSchH/view?usp=drive_link
-  
+* Melih Can Alan - https://www.youtube.com/watch?v=KY8nMaQJAKY  
 
 # Team Project 2 - Project Repository Activities/Logs
 
