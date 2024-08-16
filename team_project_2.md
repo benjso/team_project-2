@@ -67,7 +67,7 @@ Loss: 0.0039 - Mean Absolut Error: 0.0039 - Mean Squared Error : 8.6752e-05, wit
 
 5. Insights from visualization:
 
-From the TSNE graph from embedding approach, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
+From the TSNE graph of embedding approach, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
 
 
 6. Video links:
