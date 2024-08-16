@@ -2,7 +2,7 @@
 
 ## Description
 
-The team continues to apply newly acquired skills and revisit the team project 1 salary dataset, adding a new dataset - cost of living dataset by country to the existing dataset. All of us adopted different methods and approaches to preprocess the data and analyze the data.
+The team continues to apply newly acquired skills and revisit the team project 1 salary dataset, adding a new dataset - cost of living dataset by country to the existing one. All of us adopted different methods and approaches to preprocess and analyze the data.
 
 This project applies skills from the following previous modules:
 
@@ -24,6 +24,7 @@ The cost of living index data is merged to the salary data on Country name. The 
 2. Issues to solve:
    
 Multi-classification issue: Predict the salary bins/buckets at 10000 intervals.
+
 Regression issue: Use available predictors to predict the target value Salary.
 
 3. Approach used to solve the issue and reason
@@ -56,8 +57,9 @@ ROC AUC: 0.8651.
 
 (2) Deep learning embedding model:
 
-Mean Absolut Error: 0.42 within 5% of the mean target value of salary 8.4.
-The predicted value is within 5% range (4.2k) in comparison to the average true value (84k).
+Mean Absolute Error: 0.42, which is within 5% of the mean target value (salary) 8.4; Mean Squared Error: 0.699.
+
+The predicted value is within 5% range (4.2k) of the average true value (84k).
 
 (3) Neural Network model:
 
@@ -68,15 +70,17 @@ Loss: 0.0039 - Mean Absolut Error: 0.0039 - Mean Squared Error : 8.6752e-05, wit
 From the TSNE graph from embedding approach, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
 
 
-(6. Video links:)
+6. Video links:
 
 * Benjamin Su - https://drive.google.com/file/d/1mB_5qPZJzdtjhonOlV7kl8dqJLuWDiVw/view?usp=sharing
-
-
+* Yuanyuan (Caroline) Zhang - https://drive.google.com/file/d/1xX5G11Nhl22CtSwT_tFi0o3HFe0Y1BvM/view?usp=drive_link
+  
 
 # Team Project 2 - Project Repository Activities/Logs
 
 * Benjamin Su - Explored and identified the source data from Kaggle.com, performed data pre-processing and then collaborated with team members to merge other datasets from multiple channels, loaded the data into SQL DB for feeding the training model. Determined and used Neural Network model with implementation of algorithm through Python programming for training the model and testing as well as model tuning-up. Organized the meetings and discussions in the team to catch up with the project timeline, and worked with the team to compare different models and training/test results with relevant analysis.
+
+* Caroline Zhang - Explored and made suggestion on combining existing salary dataset with cost of living dataset on country name, so that the predictors are not only limited to categorical values, such as Country, and Job Title, it also contains the cost of living index numerical value; merged the two dataset into one on Country; developed a deep learning regression model with embeddings, produced visualizations to gain insights; set the structure and drafted the README file to include a summary of the dataset, issue to solve, approaches adopted and reasons, performance comparison, insights; leveraged github, slack and google meet to collaborate with the team while working on the project.
 
 
 #### Below paragraphs are the orginal requirements for this team project ####
