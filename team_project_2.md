@@ -74,7 +74,7 @@ From the TSNE graph of embedding approach, we can see that certain job titles do
 
 * Benjamin Su - https://drive.google.com/file/d/1mB_5qPZJzdtjhonOlV7kl8dqJLuWDiVw/view?usp=sharing
 * Yuanyuan (Caroline) Zhang - https://drive.google.com/file/d/1xX5G11Nhl22CtSwT_tFi0o3HFe0Y1BvM/view?usp=drive_link
-  
+* Sergii Khomych - https://drive.google.com/file/d/1dEOo2AlyYynxMLBJ2NyEb9c9BqQrSchH/view?usp=drive_link
 
 # Team Project 2 - Project Repository Activities/Logs
 
