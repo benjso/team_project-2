@@ -40,8 +40,12 @@ Regression issue: Use available predictors to predict the target value Salary.
 (3) Neural Network model to solve the regression issue
    
    Reason to use this approach is to apply the knowledge points and skills we learned most recently in ML sessions. 
- 
-4. Performance comparison
+4. Use Auto ML 
+   To get indication which Model will be best for classificaiton problem. Used this approach as per ML sessions small introductions to AutoML.
+   
+   Best pipeline: DecisionTreeClassifier
+
+5. Performance comparison
    
 (1) Pipeline approach:
 
@@ -67,12 +71,12 @@ The predicted value is within 5% range (4.2k) of the average true value (84k).
 
 Loss: 0.0039 - Mean Absolut Error: 0.0039 - Mean Squared Error : 8.6752e-05, with the prediction variance within 5% range.
 
-5. Insights from visualization:
+6. Insights from visualization:
 
 From the TSNE graph of embedding approach, we can see that certain job titles do get compensated better in comparison with others in general. The salary variance is more obvious by different job titles, than with different countries.
 
 
-6. Video links:
+7. Video links:
 
 * Benjamin Su - https://drive.google.com/file/d/1mB_5qPZJzdtjhonOlV7kl8dqJLuWDiVw/view?usp=sharing
 * Yuanyuan (Caroline) Zhang - https://drive.google.com/file/d/1xX5G11Nhl22CtSwT_tFi0o3HFe0Y1BvM/view?usp=drive_link
@@ -84,6 +88,9 @@ From the TSNE graph of embedding approach, we can see that certain job titles do
 * Benjamin Su - Explored and identified the source data from Kaggle.com, performed data pre-processing and then collaborated with team members to merge other datasets from multiple channels, loaded the data into SQL DB for feeding the training model. Determined and used Neural Network model with implementation of algorithm through Python programming for training the model and testing as well as model tuning-up. Organized the meetings and discussions in the team to catch up with the project timeline, and worked with the team to compare different models and training/test results with relevant analysis.
 
 * Caroline Zhang - Explored and made suggestion on combining existing salary dataset with cost of living dataset on country name, so that the predictors are not only limited to categorical values, such as Country, and Job Title, it also contains the cost of living index numerical value; merged the two dataset into one on Country; developed a deep learning regression model with embeddings, produced visualizations to gain insights; set the structure and drafted the README file to include a summary of the dataset, issue to solve, approaches adopted and reasons, performance comparison, insights; leveraged github, slack and google meet to collaborate with the team while working on the project.
+
+* Tarun Vashisht - Explored the dataset and cleansed the dataset to remove unncessary columns with no real impact. Also cleaned columns with NaN values which were making no contibution to the prediction model. When working with AutoML, used only cost of 
+living index to figure out SalaryinUSD. To achiehve we used Tree-based Pipeline Optimization Tool(TPOT). After running multiple instances of the model, it gave result as  Best pipeline: DecisionTreeClassifier. But upon testing the model with actual and predicted result, results were not good. 
 
 
 #### Below paragraphs are the orginal requirements for this team project ####
